@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+.image-container {
+    margin-top: 50px;
+    text-align: center;
+}
+.image-container img {
+    width: 40%; /* Увеличено до 40% экрана */
+    min-width: 300px; /* Минимальная ширина для видимости на всех экранах */
+    max-width: 600px; /* Ограничение для слишком больших экранов */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.controls {
+    margin-top: 30px;
+    text-align: center;
+}
